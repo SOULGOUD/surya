@@ -1,0 +1,45 @@
+[CLIENT] 0x4c00007
+  [CLIENT_LEADER] 0x4c00001
+  [RES_NAME] nm-connection-editor
+  [RES_CLASS] Nm-connection-editor
+  [WM_NAME] Network Connections
+  [WM_COMMAND] (1) "nm-connection-editor"
+  [GEOMETRY] (378,232,600,400)
+  [GEOMETRY-MAXIMIZED] (378,232,600,400)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0
+[CLIENT] 0x3e00006
+  [CLIENT_ID] 26908242f-c40f-4b9a-9196-dfb8b9a5d4c5
+  [CLIENT_LEADER] 0x3e00008
+  [RES_NAME] qterminal
+  [RES_CLASS] qterminal
+  [WM_NAME] suryateja@soul: ~
+  [GEOMETRY] (5,66,1356,697)
+  [GEOMETRY-MAXIMIZED] (205,131,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x3a0003e
+  [CLIENT_ID] 2b2c2062b-06d7-404c-954e-e96b422cf005
+  [CLIENT_LEADER] 0x3a00001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox-esr
+  [WM_NAME] Server Not Found — Mozilla Firefox
+  [WM_COMMAND] (1) "Firefox-esr"
+  [GEOMETRY] (0,35,1366,733)
+  [GEOMETRY-MAXIMIZED] (-24,13,1277,708)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x4400011
+  [CLIENT_LEADER] 0x4400008
+  [RES_NAME] execute.py
+  [RES_CLASS] execute.py
+  [WM_NAME] Fern WIFI Cracker
+  [GEOMETRY] (5,66,636,623)
+  [GEOMETRY-MAXIMIZED] (5,66,619,623)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0

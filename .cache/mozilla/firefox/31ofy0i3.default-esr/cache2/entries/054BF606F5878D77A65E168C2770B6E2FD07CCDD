@@ -1,0 +1,479 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+thumb-sprites.jpg#xywh=0,0,160,90
+
+00:00:05.000 --> 00:00:10.000
+thumb-sprites.jpg#xywh=160,0,160,90
+
+00:00:10.000 --> 00:00:15.000
+thumb-sprites.jpg#xywh=320,0,160,90
+
+00:00:15.000 --> 00:00:20.000
+thumb-sprites.jpg#xywh=480,0,160,90
+
+00:00:20.000 --> 00:00:25.000
+thumb-sprites.jpg#xywh=0,90,160,90
+
+00:00:25.000 --> 00:00:30.000
+thumb-sprites.jpg#xywh=160,90,160,90
+
+00:00:30.000 --> 00:00:35.000
+thumb-sprites.jpg#xywh=320,90,160,90
+
+00:00:35.000 --> 00:00:40.000
+thumb-sprites.jpg#xywh=480,90,160,90
+
+00:00:40.000 --> 00:00:45.000
+thumb-sprites.jpg#xywh=0,180,160,90
+
+00:00:45.000 --> 00:00:50.000
+thumb-sprites.jpg#xywh=160,180,160,90
+
+00:00:50.000 --> 00:00:55.000
+thumb-sprites.jpg#xywh=320,180,160,90
+
+00:00:55.000 --> 00:01:00.000
+thumb-sprites.jpg#xywh=480,180,160,90
+
+00:01:00.000 --> 00:01:05.000
+thumb-sprites.jpg#xywh=0,270,160,90
+
+00:01:05.000 --> 00:01:10.000
+thumb-sprites.jpg#xywh=160,270,160,90
+
+00:01:10.000 --> 00:01:15.000
+thumb-sprites.jpg#xywh=320,270,160,90
+
+00:01:15.000 --> 00:01:20.000
+thumb-sprites.jpg#xywh=480,270,160,90
+
+00:01:20.000 --> 00:01:25.000
+thumb-sprites.jpg#xywh=0,360,160,90
+
+00:01:25.000 --> 00:01:30.000
+thumb-sprites.jpg#xywh=160,360,160,90
+
+00:01:30.000 --> 00:01:35.000
+thumb-sprites.jpg#xywh=320,360,160,90
+
+00:01:35.000 --> 00:01:40.000
+thumb-sprites.jpg#xywh=480,360,160,90
+
+00:01:40.000 --> 00:01:45.000
+thumb-sprites.jpg#xywh=0,450,160,90
+
+00:01:45.000 --> 00:01:50.000
+thumb-sprites.jpg#xywh=160,450,160,90
+
+00:01:50.000 --> 00:01:55.000
+thumb-sprites.jpg#xywh=320,450,160,90
+
+00:01:55.000 --> 00:02:00.000
+thumb-sprites.jpg#xywh=480,450,160,90
+
+00:02:00.000 --> 00:02:05.000
+thumb-sprites.jpg#xywh=0,540,160,90
+
+00:02:05.000 --> 00:02:10.000
+thumb-sprites.jpg#xywh=160,540,160,90
+
+00:02:10.000 --> 00:02:15.000
+thumb-sprites.jpg#xywh=320,540,160,90
+
+00:02:15.000 --> 00:02:20.000
+thumb-sprites.jpg#xywh=480,540,160,90
+
+00:02:20.000 --> 00:02:25.000
+thumb-sprites.jpg#xywh=0,630,160,90
+
+00:02:25.000 --> 00:02:30.000
+thumb-sprites.jpg#xywh=160,630,160,90
+
+00:02:30.000 --> 00:02:35.000
+thumb-sprites.jpg#xywh=320,630,160,90
+
+00:02:35.000 --> 00:02:40.000
+thumb-sprites.jpg#xywh=480,630,160,90
+
+00:02:40.000 --> 00:02:45.000
+thumb-sprites.jpg#xywh=0,720,160,90
+
+00:02:45.000 --> 00:02:50.000
+thumb-sprites.jpg#xywh=160,720,160,90
+
+00:02:50.000 --> 00:02:55.000
+thumb-sprites.jpg#xywh=320,720,160,90
+
+00:02:55.000 --> 00:03:00.000
+thumb-sprites.jpg#xywh=480,720,160,90
+
+00:03:00.000 --> 00:03:05.000
+thumb-sprites.jpg#xywh=0,810,160,90
+
+00:03:05.000 --> 00:03:10.000
+thumb-sprites.jpg#xywh=160,810,160,90
+
+00:03:10.000 --> 00:03:15.000
+thumb-sprites.jpg#xywh=320,810,160,90
+
+00:03:15.000 --> 00:03:20.000
+thumb-sprites.jpg#xywh=480,810,160,90
+
+00:03:20.000 --> 00:03:25.000
+thumb-sprites.jpg#xywh=0,900,160,90
+
+00:03:25.000 --> 00:03:30.000
+thumb-sprites.jpg#xywh=160,900,160,90
+
+00:03:30.000 --> 00:03:35.000
+thumb-sprites.jpg#xywh=320,900,160,90
+
+00:03:35.000 --> 00:03:40.000
+thumb-sprites.jpg#xywh=480,900,160,90
+
+00:03:40.000 --> 00:03:45.000
+thumb-sprites.jpg#xywh=0,990,160,90
+
+00:03:45.000 --> 00:03:50.000
+thumb-sprites.jpg#xywh=160,990,160,90
+
+00:03:50.000 --> 00:03:55.000
+thumb-sprites.jpg#xywh=320,990,160,90
+
+00:03:55.000 --> 00:04:00.000
+thumb-sprites.jpg#xywh=480,990,160,90
+
+00:04:00.000 --> 00:04:05.000
+thumb-sprites.jpg#xywh=0,1080,160,90
+
+00:04:05.000 --> 00:04:10.000
+thumb-sprites.jpg#xywh=160,1080,160,90
+
+00:04:10.000 --> 00:04:15.000
+thumb-sprites.jpg#xywh=320,1080,160,90
+
+00:04:15.000 --> 00:04:20.000
+thumb-sprites.jpg#xywh=480,1080,160,90
+
+00:04:20.000 --> 00:04:25.000
+thumb-sprites.jpg#xywh=0,1170,160,90
+
+00:04:25.000 --> 00:04:30.000
+thumb-sprites.jpg#xywh=160,1170,160,90
+
+00:04:30.000 --> 00:04:35.000
+thumb-sprites.jpg#xywh=320,1170,160,90
+
+00:04:35.000 --> 00:04:40.000
+thumb-sprites.jpg#xywh=480,1170,160,90
+
+00:04:40.000 --> 00:04:45.000
+thumb-sprites.jpg#xywh=0,1260,160,90
+
+00:04:45.000 --> 00:04:50.000
+thumb-sprites.jpg#xywh=160,1260,160,90
+
+00:04:50.000 --> 00:04:55.000
+thumb-sprites.jpg#xywh=320,1260,160,90
+
+00:04:55.000 --> 00:05:00.000
+thumb-sprites.jpg#xywh=480,1260,160,90
+
+00:05:00.000 --> 00:05:05.000
+thumb-sprites.jpg#xywh=0,1350,160,90
+
+00:05:05.000 --> 00:05:10.000
+thumb-sprites.jpg#xywh=160,1350,160,90
+
+00:05:10.000 --> 00:05:15.000
+thumb-sprites.jpg#xywh=320,1350,160,90
+
+00:05:15.000 --> 00:05:20.000
+thumb-sprites.jpg#xywh=480,1350,160,90
+
+00:05:20.000 --> 00:05:25.000
+thumb-sprites.jpg#xywh=0,1440,160,90
+
+00:05:25.000 --> 00:05:30.000
+thumb-sprites.jpg#xywh=160,1440,160,90
+
+00:05:30.000 --> 00:05:35.000
+thumb-sprites.jpg#xywh=320,1440,160,90
+
+00:05:35.000 --> 00:05:40.000
+thumb-sprites.jpg#xywh=480,1440,160,90
+
+00:05:40.000 --> 00:05:45.000
+thumb-sprites.jpg#xywh=0,1530,160,90
+
+00:05:45.000 --> 00:05:50.000
+thumb-sprites.jpg#xywh=160,1530,160,90
+
+00:05:50.000 --> 00:05:55.000
+thumb-sprites.jpg#xywh=320,1530,160,90
+
+00:05:55.000 --> 00:06:00.000
+thumb-sprites.jpg#xywh=480,1530,160,90
+
+00:06:00.000 --> 00:06:05.000
+thumb-sprites.jpg#xywh=0,1620,160,90
+
+00:06:05.000 --> 00:06:10.000
+thumb-sprites.jpg#xywh=160,1620,160,90
+
+00:06:10.000 --> 00:06:15.000
+thumb-sprites.jpg#xywh=320,1620,160,90
+
+00:06:15.000 --> 00:06:20.000
+thumb-sprites.jpg#xywh=480,1620,160,90
+
+00:06:20.000 --> 00:06:25.000
+thumb-sprites.jpg#xywh=0,1710,160,90
+
+00:06:25.000 --> 00:06:30.000
+thumb-sprites.jpg#xywh=160,1710,160,90
+
+00:06:30.000 --> 00:06:35.000
+thumb-sprites.jpg#xywh=320,1710,160,90
+
+00:06:35.000 --> 00:06:40.000
+thumb-sprites.jpg#xywh=480,1710,160,90
+
+00:06:40.000 --> 00:06:45.000
+thumb-sprites.jpg#xywh=0,1800,160,90
+
+00:06:45.000 --> 00:06:50.000
+thumb-sprites.jpg#xywh=160,1800,160,90
+
+00:06:50.000 --> 00:06:55.000
+thumb-sprites.jpg#xywh=320,1800,160,90
+
+00:06:55.000 --> 00:07:00.000
+thumb-sprites.jpg#xywh=480,1800,160,90
+
+00:07:00.000 --> 00:07:05.000
+thumb-sprites.jpg#xywh=0,1890,160,90
+
+00:07:05.000 --> 00:07:10.000
+thumb-sprites.jpg#xywh=160,1890,160,90
+
+00:07:10.000 --> 00:07:15.000
+thumb-sprites.jpg#xywh=320,1890,160,90
+
+00:07:15.000 --> 00:07:20.000
+thumb-sprites.jpg#xywh=480,1890,160,90
+
+00:07:20.000 --> 00:07:25.000
+thumb-sprites.jpg#xywh=0,1980,160,90
+
+00:07:25.000 --> 00:07:30.000
+thumb-sprites.jpg#xywh=160,1980,160,90
+
+00:07:30.000 --> 00:07:35.000
+thumb-sprites.jpg#xywh=320,1980,160,90
+
+00:07:35.000 --> 00:07:40.000
+thumb-sprites.jpg#xywh=480,1980,160,90
+
+00:07:40.000 --> 00:07:45.000
+thumb-sprites.jpg#xywh=0,2070,160,90
+
+00:07:45.000 --> 00:07:50.000
+thumb-sprites.jpg#xywh=160,2070,160,90
+
+00:07:50.000 --> 00:07:55.000
+thumb-sprites.jpg#xywh=320,2070,160,90
+
+00:07:55.000 --> 00:08:00.000
+thumb-sprites.jpg#xywh=480,2070,160,90
+
+00:08:00.000 --> 00:08:05.000
+thumb-sprites.jpg#xywh=0,2160,160,90
+
+00:08:05.000 --> 00:08:10.000
+thumb-sprites.jpg#xywh=160,2160,160,90
+
+00:08:10.000 --> 00:08:15.000
+thumb-sprites.jpg#xywh=320,2160,160,90
+
+00:08:15.000 --> 00:08:20.000
+thumb-sprites.jpg#xywh=480,2160,160,90
+
+00:08:20.000 --> 00:08:25.000
+thumb-sprites.jpg#xywh=0,2250,160,90
+
+00:08:25.000 --> 00:08:30.000
+thumb-sprites.jpg#xywh=160,2250,160,90
+
+00:08:30.000 --> 00:08:35.000
+thumb-sprites.jpg#xywh=320,2250,160,90
+
+00:08:35.000 --> 00:08:40.000
+thumb-sprites.jpg#xywh=480,2250,160,90
+
+00:08:40.000 --> 00:08:45.000
+thumb-sprites.jpg#xywh=0,2340,160,90
+
+00:08:45.000 --> 00:08:50.000
+thumb-sprites.jpg#xywh=160,2340,160,90
+
+00:08:50.000 --> 00:08:55.000
+thumb-sprites.jpg#xywh=320,2340,160,90
+
+00:08:55.000 --> 00:09:00.000
+thumb-sprites.jpg#xywh=480,2340,160,90
+
+00:09:00.000 --> 00:09:05.000
+thumb-sprites.jpg#xywh=0,2430,160,90
+
+00:09:05.000 --> 00:09:10.000
+thumb-sprites.jpg#xywh=160,2430,160,90
+
+00:09:10.000 --> 00:09:15.000
+thumb-sprites.jpg#xywh=320,2430,160,90
+
+00:09:15.000 --> 00:09:20.000
+thumb-sprites.jpg#xywh=480,2430,160,90
+
+00:09:20.000 --> 00:09:25.000
+thumb-sprites.jpg#xywh=0,2520,160,90
+
+00:09:25.000 --> 00:09:30.000
+thumb-sprites.jpg#xywh=160,2520,160,90
+
+00:09:30.000 --> 00:09:35.000
+thumb-sprites.jpg#xywh=320,2520,160,90
+
+00:09:35.000 --> 00:09:40.000
+thumb-sprites.jpg#xywh=480,2520,160,90
+
+00:09:40.000 --> 00:09:45.000
+thumb-sprites.jpg#xywh=0,2610,160,90
+
+00:09:45.000 --> 00:09:50.000
+thumb-sprites.jpg#xywh=160,2610,160,90
+
+00:09:50.000 --> 00:09:55.000
+thumb-sprites.jpg#xywh=320,2610,160,90
+
+00:09:55.000 --> 00:10:00.000
+thumb-sprites.jpg#xywh=480,2610,160,90
+
+00:10:00.000 --> 00:10:05.000
+thumb-sprites.jpg#xywh=0,2700,160,90
+
+00:10:05.000 --> 00:10:10.000
+thumb-sprites.jpg#xywh=160,2700,160,90
+
+00:10:10.000 --> 00:10:15.000
+thumb-sprites.jpg#xywh=320,2700,160,90
+
+00:10:15.000 --> 00:10:20.000
+thumb-sprites.jpg#xywh=480,2700,160,90
+
+00:10:20.000 --> 00:10:25.000
+thumb-sprites.jpg#xywh=0,2790,160,90
+
+00:10:25.000 --> 00:10:30.000
+thumb-sprites.jpg#xywh=160,2790,160,90
+
+00:10:30.000 --> 00:10:35.000
+thumb-sprites.jpg#xywh=320,2790,160,90
+
+00:10:35.000 --> 00:10:40.000
+thumb-sprites.jpg#xywh=480,2790,160,90
+
+00:10:40.000 --> 00:10:45.000
+thumb-sprites.jpg#xywh=0,2880,160,90
+
+00:10:45.000 --> 00:10:50.000
+thumb-sprites.jpg#xywh=160,2880,160,90
+
+00:10:50.000 --> 00:10:55.000
+thumb-sprites.jpg#xywh=320,2880,160,90
+
+00:10:55.000 --> 00:11:00.000
+thumb-sprites.jpg#xywh=480,2880,160,90
+
+00:11:00.000 --> 00:11:05.000
+thumb-sprites.jpg#xywh=0,2970,160,90
+
+00:11:05.000 --> 00:11:10.000
+thumb-sprites.jpg#xywh=160,2970,160,90
+
+00:11:10.000 --> 00:11:15.000
+thumb-sprites.jpg#xywh=320,2970,160,90
+
+00:11:15.000 --> 00:11:20.000
+thumb-sprites.jpg#xywh=480,2970,160,90
+
+00:11:20.000 --> 00:11:25.000
+thumb-sprites.jpg#xywh=0,3060,160,90
+
+00:11:25.000 --> 00:11:30.000
+thumb-sprites.jpg#xywh=160,3060,160,90
+
+00:11:30.000 --> 00:11:35.000
+thumb-sprites.jpg#xywh=320,3060,160,90
+
+00:11:35.000 --> 00:11:40.000
+thumb-sprites.jpg#xywh=480,3060,160,90
+
+00:11:40.000 --> 00:11:45.000
+thumb-sprites.jpg#xywh=0,3150,160,90
+
+00:11:45.000 --> 00:11:50.000
+thumb-sprites.jpg#xywh=160,3150,160,90
+
+00:11:50.000 --> 00:11:55.000
+thumb-sprites.jpg#xywh=320,3150,160,90
+
+00:11:55.000 --> 00:12:00.000
+thumb-sprites.jpg#xywh=480,3150,160,90
+
+00:12:00.000 --> 00:12:05.000
+thumb-sprites.jpg#xywh=0,3240,160,90
+
+00:12:05.000 --> 00:12:10.000
+thumb-sprites.jpg#xywh=160,3240,160,90
+∞“ƒçR      eàÁeàËF`QeàË      O^partitionKey=%28https%2Cudemy.com%29,a,:https://mp4-c.udemycdn.com/2020-11-17_01-20-05-30428496d80c3074e9ab593d17abe34d/1/thumb-sprites.vtt?Expires=1703431215&Signature=fk~DpDjnVrjfFz~jLPXIlLBIGqPK9RLctU5n915YWtE0~-P6CHbLYS4dPJE4FFwzsjNwwEGw5XbJEUjPPRptRkSvszTqVCZL2kDfP4YxqCY1fqr76GkQPMZmUIOr6vlfMoeQgUjtkL0E0wJ2fmg8FOIo51LSj3pO32CpUhtcFGZXwcVOclcz2xrQs~nLunu9v2XZ~V2NQga16p7pEa59uySsaGdSG7m4Pr8JgshUo~WdSeWKgIZBTRK8VdoSLwggYHmFTGUiEu2zWo6gc9HpC4faygC4RrfHM5r7-csMeNhJawDAlP325wCiCSVZMHHdKcOvdmxIzOKy38oGXu8UvQ__&Key-Pair-Id=K3MG148K9RIRF4 necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-Origin https://www.udemy.com response-head HTTP/2 200 OK
+content-type: text/vtt
+content-length: 10093
+date: Mon, 06 Nov 2023 02:27:01 GMT
+x-amz-replication-status: COMPLETED
+last-modified: Tue, 17 Nov 2020 01:25:02 GMT
+etag: "9f066f49de71ca0046b12cad4fd5a275"
+x-amz-server-side-encryption: AES256
+x-amz-version-id: qPmJoOw8UEwcj.IGQOE3XrCmLzv7ar3b
+accept-ranges: bytes
+server: AmazonS3
+x-cache: Hit from cloudfront
+via: 1.1 dd6c7cbe6418ff0051ecdabc288fbca4.cloudfront.net (CloudFront)
+x-amz-cf-pop: MAA51-P1
+x-amz-cf-id: pJcETyg_i7OJCPz0lVZ-vd-lEiWXrlGVCkFpn3YQDTjKacdld9NmIQ==
+age: 4177395
+x-cdn: cf-cloudfront
+access-control-allow-origin: https://www.udemy.com
+vary: Origin
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/vtt
+content-length: 10093
+date: Mon, 06 Nov 2023 02:27:01 GMT
+x-amz-replication-status: COMPLETED
+last-modified: Tue, 17 Nov 2020 01:25:02 GMT
+etag: "9f066f49de71ca0046b12cad4fd5a275"
+x-amz-server-side-encryption: AES256
+x-amz-version-id: qPmJoOw8UEwcj.IGQOE3XrCmLzv7ar3b
+accept-ranges: bytes
+server: AmazonS3
+x-cache: Hit from cloudfront
+via: 1.1 dd6c7cbe6418ff0051ecdabc288fbca4.cloudfront.net (CloudFront)
+x-amz-cf-pop: MAA51-P1
+x-amz-cf-id: pJcETyg_i7OJCPz0lVZ-vd-lEiWXrlGVCkFpn3YQDTjKacdld9NmIQ==
+age: 4177395
+x-cdn: cf-cloudfront
+access-control-allow-origin: https://www.udemy.com
+vary: Origin
+X-Firefox-Spdy: h2
+ ctid 1 net-response-time-onstart 54 net-response-time-onstop 54   'm

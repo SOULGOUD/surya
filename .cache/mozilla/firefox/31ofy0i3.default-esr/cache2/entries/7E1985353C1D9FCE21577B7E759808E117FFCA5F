@@ -1,0 +1,155 @@
+const fromExact = (from) => (path) => [ from, path === from ]               // [xyz]
+const fromIncludes = (from) => (path) => [ from, path.includes(from) ]      // [xy]z
+const toExact = (to) => () => to                                            // x -> y
+const toReplace = (to) => (path, from) => path.replace(from, to)            // abc/x -> xyz/x
+
+// List of redirects
+//  String values are treated as exacts by default.
+//  Exact matches should be listed first as redirects are stacked
+// 
+// To change behavior you can use the following method structures:
+//  [0 - from]: (path) => [matchStr, boolean (true for match, false for do not match)]
+//  [1 - to]:  (path, from) => string (returned value becomes the new path)
+const redirects = [
+    [ fromIncludes(`/docs/ngrok-link`), `/docs/cloud-edge` ],
+    [ fromIncludes(`/docs/api/api-clients`), `/docs/api/#client-libraries` ],
+    [ fromIncludes(`/docs/api/client-libraries`), `/docs/api/#client-libraries` ],
+    [ fromIncludes(`/docs/api/terraform`), `/docs/api/#terraform-provider` ],
+    [ fromIncludes(`/docs/platform/api`), `/docs/api/` ],
+    [ fromIncludes(`/docs/platform/events`), `/docs/events/` ],
+    [ fromIncludes(`/docs/events/filtering`), `/docs/events/#filters` ],
+    [ fromIncludes(`/docs/http-header-templates/`), `/docs/cloud-edge/http-header-templates/` ],
+    [ fromIncludes(`/docs/platform/pops/`), `/docs/cloud-edge/pops/` ],
+    [ fromIncludes(`/docs/best-practices/security-dev-productivity/`), `/docs/guides/security-dev-productivity/` ],
+    [ fromIncludes(`/docs/platform/ip-policies/`), `/docs/cloud-edge/ip-policies/` ],
+    [ fromIncludes(`/docs/platform/botusers/`), `/docs/user-management/#bot-users` ],
+    [ fromIncludes(`/docs/platform/dashboard/`), `/docs/user-management/#sso` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/webhook/`), `/docs/cloud-edge/modules/webhook-verification/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/amazon/`), `/docs/integrations/amazon/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/facebook/`), `/docs/integrations/facebook/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/github/`), `/docs/integrations/github/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/gitlab/`), `/docs/integrations/gitlab/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/google/`), `/docs/integrations/google/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/linkedin/`), `/docs/integrations/linkedin/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/microsoft/`), `/docs/integrations/microsoft/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/twitch/`), `/docs/integrations/twitch/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/http-header-templates/`), `/docs/cloud-edge/modules/request-headers/#variables` ],
+    [ fromIncludes(`/docs/integrations/awscloudwatch`), `/docs/integrations/amazon-cloudwatch/` ],
+    [ fromIncludes(`/docs/integrations/awsfirehose`), `/docs/integrations/amazon-firehose/` ],
+    [ fromIncludes(`/docs/integrations/awskinesis`), `/docs/integrations/amazon-kinesis/` ],
+    [ fromIncludes(`/docs/secure-tunnels/tunnels/tcp-tunnels`), `/docs/tcp/` ],
+    [ fromIncludes(`/docs/secure-tunnels/tunnels/ssh-reverse-tunnel-agent`), `/docs/agent/ssh-reverse-tunnel-agent` ],
+
+    // /docs/events/* -> /docs/obs/*
+    [ fromIncludes(`/docs/events/`), toReplace(`/docs/obs/`) ],
+
+    // redirects for ngrok agent, redirect cli first
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/reference/api/`), `/docs/agent/api/` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/reference/changelog/`), `/docs/agent/changelog/` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/reference/config/`), `/docs/agent/config/` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/reference/ngrok/`), `/docs/agent/cli/` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/remote-management/`), `/docs/agent/#remote-management` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/shell-autocompletion/`), `/docs/agent/#tab-completion` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/supported-platforms/`), `/docs/agent/#system-requirements` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/tunnel-authtokens/`), `/docs/agent/#authtokens` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/web-inspection-interface/`), `/docs/agent/web-inspection-interface/` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/reference/ngrok`), `/docs/agent/cli` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/api-access/`), `/docs/agent/api/` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/automatic-updates/`), `/docs/agent/#updates` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/configuration-file/`), `/docs/agent/config/` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/diagnose-command/`), `/docs/agent/#troubleshooting-connectivity` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/installing-as-a-service/`), `/docs/agent/#background-service` ],
+    [ fromIncludes(`/docs/secure-tunnels/ngrok-agent/`), toReplace(`/docs/agent/`) ],
+
+    // redirects for secure-tunnels
+    [ fromIncludes(`/docs/secure-tunnels/agent_ingress/`), `/docs/agent/ingress/` ],
+    [ fromIncludes(`/docs/secure-tunnels/agentless/`), `/docs/agent/#using-ngrok-without-the-agent` ],
+    [ fromIncludes(`/docs/secure-tunnels/non-local/`), `/docs/http/#forward-to-non-local` ],
+    [ fromIncludes(`/docs/secure-tunnels/tunnels/`), `/docs/agent/` ],
+    [ fromIncludes(`/docs/secure-tunnels/tunnels/http-tunnels/`), `/docs/http/` ],
+    [ fromIncludes(`/docs/secure-tunnels/tunnels/ssh-reverse-tunnel-agent/`), `/docs/agent/ssh-reverse-tunnel-agent/` ],
+    [ fromIncludes(`/docs/secure-tunnels/tunnels/tcp-tunnels/`), `/docs/tcp/` ],
+    [ fromIncludes(`/docs/secure-tunnels/tunnels/tls-tunnels/`), `/docs/tls/` ],
+    [ fromIncludes(`/docs/secure-tunnels/`), `/docs/agent/` ],
+
+    // redirects for cloud edges
+    [ fromIncludes(`/docs/cloud-edge/app-users/`), `/docs/network-edge/app-users/` ],
+    [ fromIncludes(`/docs/cloud-edge/edges/`), `/docs/network-edge/edges/` ],
+    [ fromIncludes(`/docs/cloud-edge/edges/https/`), `/docs/http/` ],
+    [ fromIncludes(`/docs/cloud-edge/edges/tcp/`), `/docs/tcp/` ],
+    [ fromIncludes(`/docs/cloud-edge/edges/tls/`), `/docs/tls/` ],
+    [ fromIncludes(`/docs/cloud-edge/endpoints/`), `/docs/http/` ],
+    [ fromIncludes(`/docs/cloud-edge/ip-policies/`), `/docs/http/#ip-restrictions` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/circuit-breaker/`), `/docs/http/circuit-breaker/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/compression/`), `/docs/http/compression/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/ip-restrictions/`), `/docs/http/ip-restrictions/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/mutual-tls/`), `/docs/http/mutual-tls/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/oauth/`), `/docs/http/oauth/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/openid-connect/`), `/docs/http/openid-connect/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/request-headers/`), `/docs/http/request-headers/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/response-headers/`), `/docs/http/response-headers/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/saml/`), `/docs/http/saml/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/tls-termination/`), `/docs/http/tls-termination/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/webhook-verification/`), `/docs/http/webhook-verification/` ],
+    [ fromIncludes(`/docs/cloud-edge/modules/`), `/docs/http/#modules` ],
+    [ fromIncludes(`/docs/cloud-edge/observability/`), `/docs/http/#observability` ],
+    [ fromIncludes(`/docs/cloud-edge/pops/`), `/docs/network-edge/#points-of-presence` ],
+    [ fromIncludes(`/docs/cloud-edge/zero-knowledge-tls/`), `/docs/tls/tls-termination/#zero-knowledge-tls` ],
+    [ fromIncludes(`/docs/cloud-edge/`), `/docs/network-edge/` ],
+]
+
+// get current location from window
+const currentPath = window.location.pathname
+
+// set new path to current path
+let newPath = currentPath
+
+// iterate over each redirect, when a match is found, update newPath
+// we do this until the list is finished letting us stack redirects:
+// redirect A (2018) -> redirect B (2020) -> redirect C (current year)
+for (const redirect of redirects) {
+    let fromFn = redirect[0]
+    let toFn = redirect[1]
+
+    // Sugar for exact matching
+    if (typeof fromFn === 'string') {
+        fromFn = fromExact(fromFn)
+    }
+
+    // Sugar for exact replacement
+    if (typeof toFn === 'string') {
+        toFn = toExact(toFn)
+    }
+
+    const [from, fromResult] = fromFn(newPath)
+    if (fromResult) {
+        newPath = toFn(newPath, from)
+    }
+}
+
+// redirect when the path has changed
+if (newPath != currentPath) {
+    window.location.href = `${window.location.origin}${newPath}`
+}ª
+ÂG[à      eˆ\eˆ]F`Sheˆlñ   V    O^partitionKey=%28https%2Cngrok.com%29,:https://ngrok.com/docs/scripts/fix-redirect.js necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+date: Sun, 24 Dec 2023 11:05:00 GMT
+content-type: text/javascript
+content-length: 8875
+last-modified: Thu, 21 Dec 2023 17:14:44 GMT
+etag: "d20755b6ef5c68b681451e2961f6fabc"
+x-cache: Miss from cloudfront
+via: 1.1 c75880e5e3f6403effb11a38f7413360.cloudfront.net (CloudFront)
+x-amz-cf-pop: HIO50-C2
+x-amz-cf-id: f4pOMf_UcsDU5ywmcgkyub5MOuCSSq8zfnkXA5k_H2Ps5sroZFB4SA==
+X-Firefox-Spdy: h2
+ original-response-headers date: Sun, 24 Dec 2023 11:05:00 GMT
+content-type: text/javascript
+content-length: 8875
+last-modified: Thu, 21 Dec 2023 17:14:44 GMT
+etag: "d20755b6ef5c68b681451e2961f6fabc"
+x-cache: Miss from cloudfront
+via: 1.1 c75880e5e3f6403effb11a38f7413360.cloudfront.net (CloudFront)
+x-amz-cf-pop: HIO50-C2
+x-amz-cf-id: f4pOMf_UcsDU5ywmcgkyub5MOuCSSq8zfnkXA5k_H2Ps5sroZFB4SA==
+X-Firefox-Spdy: h2
+ ctid 2 uncompressed-len 0 net-response-time-onstart 469 net-response-time-onstop 1009   "«

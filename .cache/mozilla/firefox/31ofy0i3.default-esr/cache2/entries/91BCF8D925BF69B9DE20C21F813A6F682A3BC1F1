@@ -1,0 +1,245 @@
+{
+    "IPv4" : [
+        {
+            "dnspriv_label" : "CleanBrowsing 1 (security)",
+            "dnspriv_server" : "185.228.168.9",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "security-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 2 (security)",
+            "dnspriv_server" : "185.228.169.9",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "security-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 1 (family)",
+            "dnspriv_server" : "185.228.168.168",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "family-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 2 (family)",
+            "dnspriv_server" : "185.228.169.168",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "family-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 1 (adult filter)",
+            "dnspriv_server" : "185.228.168.10",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "adult-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 2 (adult filter)",
+            "dnspriv_server" : "185.228.169.11",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "adult-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Cloudflare 1.1.1.1",
+            "dnspriv_server" : "1.1.1.1",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "cloudflare-dns.com",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Cloudflare 1.0.0.1",
+            "dnspriv_server" : "1.0.0.1",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "cloudflare-dns.com",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Google 8.8.8.8",
+            "dnspriv_server" : "8.8.8.8",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.google",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Google 8.8.4.4",
+            "dnspriv_server" : "8.8.4.4",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.google",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Quad9 1",
+            "dnspriv_server" : "9.9.9.9",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.quad9.net",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Quad9 2",
+            "dnspriv_server" : "149.112.112.112",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.quad9.net",
+            "dnspriv_spkipin" : ""
+        }
+    ],
+    "IPv4 (port 443)" : [
+        {
+            "dnspriv_label" : "Neutopia",
+            "dnspriv_server" : "89.234.186.112",
+            "dnspriv_port" : "443",
+            "dnspriv_hostname" : "dns.neutopia.org",
+            "dnspriv_spkipin" : "wTeXHM8aczvhRSi0cv2qOXkXInoDU+2C+M8MpRyT3OI="
+        },
+        {
+            "dnspriv_label" : "Surfnet/Sinodun 1",
+            "dnspriv_server" : "145.100.185.15",
+            "dnspriv_port" : "443",
+            "dnspriv_hostname" : "dnsovertls.sinodun.com",
+            "dnspriv_spkipin" : "62lKu9HsDVbyiPenApnc4sfmSYTHOVfFgL3pyB+cBL4="
+        },
+        {
+            "dnspriv_label" : "Surfnet/Sinodun 2",
+            "dnspriv_server" : "145.100.185.16",
+            "dnspriv_port" : "443",
+            "dnspriv_hostname" : "dnsovertls1.sinodun.com",
+            "dnspriv_spkipin" : "cE2ecALeE5B+urJhDrJlVFmf38cJLAvqekONvjvpqUA="
+        }
+    ],
+    "IPv6" : [
+        {
+            "dnspriv_label" : "CleanBrowsing 1 (security)",
+            "dnspriv_server" : "2a0d:2a00:1::2",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "security-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 2 (security)",
+            "dnspriv_server" : "2a0d:2a00:2::2",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "security-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 1 (family)",
+            "dnspriv_server" : "2a0d:2a00:1::0",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "family-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 2 (family)",
+            "dnspriv_server" : "2a0d:2a00:2::0",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "family-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 1 (adult filter)",
+            "dnspriv_server" : "2a0d:2a00:1::1",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "adult-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "CleanBrowsing 2 (adult filter)",
+            "dnspriv_server" : "2a0d:2a00:2::1",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "adult-filter-dns.cleanbrowsing.org",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Cloudflare :1111",
+            "dnspriv_server" : "2606:4700:4700::1111",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "cloudflare-dns.com",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Cloudflare :1001",
+            "dnspriv_server" : "2606:4700:4700::1001",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "cloudflare-dns.com",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Google :8888",
+            "dnspriv_server" : "2001:4860:4860::8888",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.google",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Google :8844",
+            "dnspriv_server" : "2001:4860:4860::8844",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.google",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Quad9 1",
+            "dnspriv_server" : "2620:fe::fe",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.quad9.net",
+            "dnspriv_spkipin" : ""
+        },
+        {
+            "dnspriv_label" : "Quad9 2",
+            "dnspriv_server" : "2620:fe::9",
+            "dnspriv_port" : "",
+            "dnspriv_hostname" : "dns.quad9.net",
+            "dnspriv_spkipin" : ""
+        }
+    ],
+    "IPv6 (port 443)" : [
+        {
+            "dnspriv_label" : "Neutopia",
+            "dnspriv_server" : "2a00:5884:8209::2",
+            "dnspriv_port" : "443",
+            "dnspriv_hostname" : "dns.neutopia.org",
+            "dnspriv_spkipin" : "wTeXHM8aczvhRSi0cv2qOXkXInoDU+2C+M8MpRyT3OI="
+        },
+        {
+            "dnspriv_label" : "Surfnet/Sinodun 1",
+            "dnspriv_server" : "2001:610:1:40ba:145:100:185:15",
+            "dnspriv_port" : "443",
+            "dnspriv_hostname" : "dnsovertls.sinodun.com",
+            "dnspriv_spkipin" : "62lKu9HsDVbyiPenApnc4sfmSYTHOVfFgL3pyB+cBL4="
+        },
+        {
+            "dnspriv_label" : "Surfnet/Sinodun 2",
+            "dnspriv_server" : "2001:610:1:40ba:145:100:185:16",
+            "dnspriv_port" : "443",
+            "dnspriv_hostname" : "dnsovertls1.sinodun.com",
+            "dnspriv_spkipin" : "cE2ecALeE5B+urJhDrJlVFmf38cJLAvqekONvjvpqUA="
+        }
+    ]
+}
+}ÜY»–      eá≥eá¥F_¢2eêK0   j    O^partitionKey=%28https%2C192.168.50.1%2C8443%29,a,:https://nw-dlcdnet.asus.com/plugin/js/dot-servers.json necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+strict-transport-security: max-age=63072000;includeSubdomains; preload
+last-modified: Thu, 21 Oct 2021 07:04:18 GMT
+etag: "1fe1-5ced780d81340"
+accept-ranges: bytes
+content-length: 8161
+access-control-allow-origin: *
+content-security-policy: img-src *
+content-type: application/json
+date: Sat, 23 Dec 2023 16:54:09 GMT
+server: Apache
+X-Firefox-Spdy: h2
+ original-response-headers strict-transport-security: max-age=63072000;includeSubdomains; preload
+last-modified: Thu, 21 Oct 2021 07:04:18 GMT
+etag: "1fe1-5ced780d81340"
+accept-ranges: bytes
+content-length: 8161
+access-control-allow-origin: *
+content-security-policy: img-src *
+set-cookie: HttpOnly;Secure;
+content-type: application/json
+date: Sat, 23 Dec 2023 16:54:09 GMT
+server: Apache
+X-Firefox-Spdy: h2
+ ctid 1 net-response-time-onstart 629 net-response-time-onstop 629   ·
